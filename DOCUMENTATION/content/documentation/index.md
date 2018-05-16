@@ -414,6 +414,7 @@ To learn more about how Docker publishes ports, please read [this excellent post
 
 
 
+
 <br>
 <a name="Laravel"></a>
 
@@ -1021,6 +1022,9 @@ docker-compose up -d aws
 
 
 
+
+
+
 <br>
 <a name="Use-Grafana"></a>
 ## Use Grafana
@@ -1036,6 +1040,9 @@ docker-compose up -d grafana
 3 - Open your browser and visit the localhost on port **3000** at the following URL: `http://localhost:3000`
 
 4 - Login using the credentials User = `admin`, Password = `admin`. Change the password in the web interface if you want to.
+
+
+
 
 
 
@@ -1503,14 +1510,12 @@ e) set it to `true`
 
 
 
-
 <br>
 <a name="phpstorm-debugging"></a>
 ## PHPStorm Debugging Guide
 Remote debug Laravel web and phpunit tests.
 
 [**Debugging Guide Here**](/guides/#PHPStorm-Debugging)
-
 
 
 

@@ -350,7 +350,7 @@ MONGODB_PORT=27017
 CADDY_HOST_HTTP_PORT=80
 CADDY_HOST_HTTPS_PORT=443
 CADDY_HOST_LOG_PATH=./logs/caddy
-CADDY_CUSTOM_CADDYFILE=./caddy/Caddyfile
+CADDY_CONFIG_PATH=./caddy/caddy
 
 ### LARAVEL ECHO SERVER ###################################
 
@@ -362,6 +362,7 @@ SOLR_VERSION=5.5
 SOLR_PORT=8983
 SOLR_DATAIMPORTHANDLER_MYSQL=false
 
+<<<<<<< HEAD
 ### GITLAB ###############################################
 GITLAB_HOST_HTTP_PORT=8989
 GITLAB_HOST_HTTPS_PORT=9898
@@ -407,3 +408,7 @@ MONGO_WEBUI_INSTALL_MONGO=false
 METABASE_PORT=3030
 METABASE_DB_FILE=metabase.db
 METABASE_JAVA_TIMEZONE=US/Pacific
+=======
+### NETDATA ###############################################
+NETDATA_PORT=19999
+>>>>>>> 561dd70... add container

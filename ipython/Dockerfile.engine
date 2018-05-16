@@ -15,6 +15,13 @@ RUN python -m pip --quiet --no-cache-dir install \
         requests \
         bs4
 
+RUN python -m pip --no-cache-dir install \
+        numpy \
+        pandas \
+        pymongo \
+        redis \
+        requests
+
 RUN ipython profile create --parallel --profile=default
 
 COPY ipcontroller-client.json /root/.ipython/profile_default/security/ipcontroller-client.json
